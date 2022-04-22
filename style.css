@@ -1,0 +1,7 @@
+header{
+    background-image: linear-gradient(#de2673, #fa4b38);
+    height: 800px;
+}
+.nav-item>a{
+    color: #fff;
+}
