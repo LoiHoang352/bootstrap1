@@ -1,7 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+
 header{
     background-image: linear-gradient(#de2673, #fa4b38);
-    height: 800px;
+    height: auto;
+    padding: 10px 0;
 }
+header a {
+    font-family: var(--Sniglet-font);
+}
+
 .nav-item>a{
     color: #fff;
+}
+.nav-link:hover {
+    color: black;
+}
+.nav-item {
+    padding: 0 10px;
+}
+header .content {
+    padding: 100px 0;
+    font-family: "Rubik", sans-serif;
+    color: #fff;   
+}
+
+header .content h1 {
+    font-size: 9vmin;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.primary-btn{
+    cursor: pointer;
+    border-radius: 30px;
+}
+.section-1 {
+    padding: 100px 0;
+   /* overflow-y: scroll; */
+}
+
+.section-1-img {
+    text-align: center;
+    padding: 0 20px;
+}
+.section-1 img {
+    width: 80%;
+    opacity: 0.8;
+    border-radius: 3px;
+}
+/* .section-1 .row .col-md-6 .panel {
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    box-shadow: 0px 25px 42px rgb(0 0 0 / 20%);
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+} */
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+  }
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgb(0 0 0 / 20%);
+    z-index: 1;
+    width: 100%; 
+}
+
+.panel p {
+    font-size: 14.4px;
+    opacity: 0.6;
+    line-height: 1.2;
+}
+.cover {
+    background: url('./assets/assets/pexels-photo-452738.jpeg') top center / contain no-repeat;
+    
+    height: 55vmin;
+    background-size: 150% ;
+    background-position: -24rem -19rem;
+    position: relative; 
+    z-index: -1;
+   
+}
+.cover .content {
+    color: #fff;
+    padding: 150px;
+    width: 100%;
+    height: 100%;  
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.number {
+    margin-top: -13vmin;
+    z-index: 1;
+    
+}
+.rect {   
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 2px 50px 0px rgb(255 0 0 / 35%);
+    margin-bottom: 10vmin;
+}
+.rect h1 {
+    font-size: 70px;
+    color: #fa4b38;
+}
+.rect p {
+    font-weight: bold;
+}
+
+.purchase{
+    padding: 20px 0 50px 0px;
+}
+.option {
+    margin: 20px;
+    border-radius: 10px; 
+    width: 380px;
+}
+.card-title{
+    padding: 15px 0;
+    background-color: rgba(208, 241, 241, 0.199);;
+}
+.card-text {
+   padding: 20px 48px;
+}
+.card-title h1 {
+    font-size: 25px;
+}
+.price {
+    padding: 80px 0 50px 0;
+    background-color: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 70%;
+    border-top-left-radius: 70%;
+}
+.price h1 {
+    padding-bottom: 80px;
+    font-size: 60px;
+}
+.price .btn {
+    border-radius: 30rem;
+    padding: 5px 40px;
+    font-weight: bold;
+}
+.section-3{
+    background-image: linear-gradient(#de2673, #fa4b38); 
+    padding: 80px 30px;
+}
+.section-3 .content h1{
+    padding-bottom: 50px;
+    font-size: 45px;
+}
+.section-3 .content p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.section-3 .desktop .device h1 {
+    font-size: 28px;
+}
+.section-3 .desktop{
+    border-radius: 3em;
+    padding: 15px 40px;
+    margin: 0 10px;
+    
+}
+.avatar-carousel{
+    width: 40%;
+    border-radius: 50%;
+}
+.avatar {
+    width: 70%;
+    border-radius: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-4{
+    padding: 90px 0;
+}
+.section-4 .heading {
+    padding-bottom: 100px;
+}
+.section-4 .content h1 {
+    padding: 30px 0 15px 0;
+    font-size: 30px;
+}
+.section-4 .content p{
+    opacity: 0.8;
+    line-height: 1.6;
+    letter-spacing: .6px;
+}
+
+.job h1{
+    font-size: 24px;
+    opacity: 0.6;
+}
+.job p {
+    font-size: 16px;
+    opacity: 0.6;
+}
+footer{
+    padding: 80px;
+}
+.social .icon {
+    padding: 0 5px;
+    color:#de2673;
+}
+.container h1{
+    font-size: 24px;
+}
+.input-group-text {
+    background: var(--bggradient);
+    background-color: #de2673;
+}
+.copyright span {
+    color: #de2673;
 }
