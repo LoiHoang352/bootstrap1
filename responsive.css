@@ -1,0 +1,62 @@
+@media  screen and (max-width: 1200px) {
+    .rect{
+        width: 240px;
+    }
+    .rect h1 {
+        font-size: 3rem;
+    }
+}
+@media  screen and (max-width: 768px) {
+    .section-1 .row .col-md-6 .panel {  
+        position: relative;   
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .section-1-img img {
+        width: 70%;
+    }
+    .panel h1 {
+        font-size: 30px;
+    }
+    .panel p {
+        font-size: 16px;
+    }
+    .cover {
+        background-position: 0rem 0rem;
+    }
+    .rect{
+        width: 160px;
+    }
+
+    .cover .content h1{
+        font-size: 25px;
+    }
+    .desktop{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px !important;
+        float: none !important;
+    }
+}
+@media screen and (max-width:574px){
+    .number {
+        margin-top: 20px;
+        
+    }
+    .section-4 .heading h1 {
+        font-size: 30px;
+    }
+    .section-3 .content h1 {
+        font-size: 30px;
+    }
+    .section-3 .content p {
+        font-size: 16px;
+    }
+   
+}
