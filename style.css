@@ -1,6 +1,7 @@
 * {
     padding: 0;
-    margin: 0;box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 header{
@@ -20,6 +21,12 @@ header a {
 }
 .nav-item {
     padding: 0 10px;
+}
+.navbar-nav .nav-item:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-item {
+    padding: 12px 10px;
 }
 header .content {
     padding: 100px 0;
@@ -216,4 +223,14 @@ footer{
 }
 .copyright span {
     color: #de2673;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    transition: all 1.5s ease;
 }
